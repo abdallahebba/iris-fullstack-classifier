@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Explicit assignment environment & cache ignores
+api/.env
+.env
+.venv/
+__pycache__/
+*.pyc
